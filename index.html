@@ -12,6 +12,9 @@
     <li>Working tree : folder tempat kita bekerja atau melakukan coding</li>
     <li>Stagging area : menyiapakan perubahan file atau folder yang kita inginkan pada github</li>
     <li>History area : menyimpan dengan cara commit untuk memasukkan pada github</li>
+    <li>fast forward : menggabungkan cabang yang kita buat dengan jalur master</li>
+    <li>Three way Merge : menggabung kan cabang yang kita buat dengan cabang lain yang kita buat yang lain</li>
+    <li>Conflict Merge : penggabungan repo terjadi masalah dikarenakan branch memiliki perubahan yang tidak sama pada file dengan baris yang sama</li>
 </ol>
 <p>Command Git :</p>
 <ul>
@@ -20,11 +23,23 @@
     <li>git rm --cached (file)... : untuk menghapus file pada stagging area</li>
     <li>git config --global user.name "rindu aji" : mensetting git dengan github yang kita inginkan dengan memasukkan nama untuk memasukan perubahan pada github</li>
     <li>git config --global user.email "rinduaji1994@gmail.com" : mensetting git dengan github yang kita inginkan dengan memasukkan email untuk memasukan perubahan pada github</li>
-    <li>git commit -m "(penjelasan perubahan)" : menyimpan perubahan pada github</li>
+    <li>git commit -m "(penjelasan perubahan)" : menyimpan perubahan pada folder ke stagging area</li>
+    <li>git commit -am "(penjelasan perubahan)" : menyimpan semua perubahan pada folder ke stagging area</li>
     <li>git add . : memasukkan semua file atau folde perubahan pada stagging area</li>
     <li>git log : melihat semua history commit dan kode hash history pada github secara git. mengakhiri dengan menekan huruf z atau q.</li>
+    <li>git log -3 : melihat 3 history commit dan kode hash history terakhir pada github secara git. mengakhiri dengan menekan huruf z atau q.</li>
+    <li>git log -- (nama file) : melihat history commit dan kode hash history pada file yang kita cari pada github secara git. mengakhiri dengan menekan huruf z atau q.</li>
     <li>git checkout (kode hash) : mengembalikan folder master pada commit yang diinginkan dengan memasukkan kode hash</li>
+    <li>git branch : mengecek branch yang terdaftar pada repo</li>
+    <li>git branch (nama branch) : membuat branch atau cabang baru pada repo</li>
+    <li>git checkout (nama branch) : merubah lokasi branch pada repo</li>
+    <li>git log --all --decorate --oneline --graph : melihat grafik atau jalur pada repo</li>
+    <li>alias (nama variabel)="(command git)" : merubah command default git menjadi command lain yang kita inginkan agar command tidak terlalu panjang</li>
+    <li>git merge (nama branch) : menggabungkan branch yang diingkan dengan jalur master</li>
+    <li>git branch -d (nama branch) : menghapus cabang pada repo</li>
+    <li>git branch -D (nama branch) : menghapus branch beserta file yang yang terrecord pada branch tersebut</li>
+    <li>git branch --merged : melihat daftar branch yang telah digabungkan</li>
 </ul>
-<script type="text/javascript"></script>
+
 </body>
 </html>
